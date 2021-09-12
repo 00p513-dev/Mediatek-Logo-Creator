@@ -1,4 +1,4 @@
-BOOT_LOGO := swfwvga
+BOOT_LOGO := 2e
 LOGO_IMAGE := logo.bin
 
 BIN_DIR := bin
