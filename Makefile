@@ -1,4 +1,7 @@
-BOOT_LOGO := 2e
+ifndef BOOT_LOGO
+    $(error error BOOT_LOGO not specified)
+endif
+
 LOGO_IMAGE := logo.bin
 
 BIN_DIR := bin
